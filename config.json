@@ -1,0 +1,13 @@
+{
+    "app_id" : "com.colvir.lc",
+    "versioncode" : "052016",
+    "versionname" : "1.0.0",
+    "cache_expiration_time" : 300000,
+    "default_lang" : "ru",
+    "languages": {"en": "English", "ru": "Русский",},
+    "wsservice" : "moodle_mobile_app",
+    "wsextservice" : "local_mobile",
+	"siteurl" : "http://lc.colvir.com/lcms/",
+    "gcmpn": "694767596569",
+    "customurlscheme": "moodlemobile"
+}
