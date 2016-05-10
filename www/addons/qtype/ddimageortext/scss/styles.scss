@@ -1,5 +1,10 @@
 // Style ddimageortext content a bit. Almost all these styles are copied from Moodle.
 .mma-qtype-ddimageortext-container {
+  mm-loading {
+    position: absolute;
+    left: 50%;
+  }
+
   .qtext {
     margin-bottom: 0.5em;
     display: block;
@@ -86,6 +91,9 @@
     position: absolute;
     z-index: 1;
     cursor: pointer;
+  }
+  .readonly .dropzone {
+    cursor: auto;
   }
 
   div.dragitems div.draghome, div.dragitems div.drag {
